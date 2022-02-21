@@ -6,14 +6,6 @@ this repo is a personal midical site
 * [live-demo](#live-demo)
 * [Creator](#creators)
 
-## skills-I-gained-in-this-project
-
-I trained on :
-
-* resbonsive design .
-* animation .
-* flex box .
-* grid .
 
 ## live-demo
 
