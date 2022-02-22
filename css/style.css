@@ -854,3 +854,138 @@ footer ul li a:hover{
     color: var(--blue);
 }
 /********** end footer **********/
+
+
+
+
+
+
+
+/********** start sign up page  **********/
+
+
+.sign-up{
+    background: url(../images/login-pattern.svg) fixed;
+    width: 100%;
+}
+.sign-up .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.sign-up .bord{
+    background-color: #fff;
+    width: 70%;
+    padding: 30px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    margin: 100px 0;
+}
+
+.sign-up h2{
+    margin-bottom: 30px;
+}
+.sign-up .bord .form-control{
+    margin-bottom: 30px;
+}
+.sign-up .bord .form-select{
+    width: 46%;
+    margin: 0 2% 30px;
+}
+
+
+.sign-up .bord a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.sign-up .bord .btn-container{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sign-up .bord .googl-btn{
+    border-radius: 10px;
+    width: 230px;
+    padding: 15px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+}
+
+@media(max-width:768px){
+    .sign-up .bord{
+        width: 100%;
+    }
+    .sign-up .bord .form-control{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .sign-up .bord .form-select{
+        margin-bottom: 15px;
+    }
+}
+/********** end sign up page **********/
+
+
+
+
+
+
+/********** start sign in page **********/
+.sign-in .bord{
+    width: 480px;
+    padding: 20px 70px;
+}
+.sign-in .bord .image{
+    width: 150px;
+    margin: 5px auto;
+}
+.sign-in .bord .image img{
+    max-width: 100%;
+}
+.sign-in .bord h2{
+    text-align: center;
+}
+.sign-in .bord .form-control {
+    margin-bottom: 15px;
+}
+.sign-in .bord .btn{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2.5px solid #707070 !important;
+    margin: 15px 0;
+}
+
+@media(max-width:768px){
+    .sign-in .bord{
+        padding: 30px;
+    }
+}
+/********** end sign in page **********/
+
+
+
+
+
+
+/********** start contact us page  **********/
+.contact-us h3{
+    margin-top: 100px;
+}
+
+.contact-us .bord{
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.contact-us .image img{
+    max-width: 100%;
+}
+
+.contact-us form .btn{
+    width: 100%;
+    border-radius: 5px;
+}
+/********** end  contact us page  **********/
