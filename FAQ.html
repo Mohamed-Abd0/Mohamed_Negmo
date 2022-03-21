@@ -63,6 +63,7 @@
 
 
 
+
 <!-- start side bar -->
 
 <header id="side-bar" class="">
@@ -97,50 +98,58 @@
 
 
 
-<!-- start contact us  -->
 
+<!-- start FAQ page  -->
 
-<div class="contact-us">
+<div class="faq">
     <div class="container">
-        <h3>تواصل معنا</h3>
-        <div class="row bord">
-            <div class="col-sm-12 col-md-5">
-                <div class="image">
-                    <img src="./images/contact-us.jpg" alt="contact-us">
+        <h3>الاسئلة الشائعة</h3>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        السؤال الاول 
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque facere dolores optio sed modi iusto cum possimus. Ex quidem provident dolore vel quibusdam sunt. Ullam ea numquam sequi doloribus commodi.
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-7">
-                <form action="submit">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">الاسم   </label>
-                        <input type="text" class="form-control" id="name">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        السؤال الثاني 
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptates omnis dignissimos nobis impedit nostrum, aperiam harum incidunt aliquid id culpa? Nulla, quas quasi ipsa iusto aut aliquam ipsum eligendi.
                     </div>
-                    <div class="mb-3">
-                        <label for="form-email" class="form-label"> البريد الالكتروني</label>
-                        <input type="email" class="form-control" id="form-email">
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        السؤال الثالث
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam alias vitae, quae ipsa eaque soluta nostrum temporibus nemo. Laborum eaque repellendus ipsa et. Nesciunt labore adipisci neque sit, consequatur similique!
                     </div>
-                    <div class="mb-3">
-                        <label for="title" class="form-label"> الموضوع  </label>
-                        <select class=" form-select col-sm-12 col-md-6" name="title" id="title" aria-label="Default select example">
-                            <option selected>اسالنا حول الدورت  </option>
-                            <option value="1">استفسارات الاعمال  </option>
-                            <option value="2">الاستشارات الخاصة </option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="form-textarea" class="form-label">الرسالة    </label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <div class="text-center ">
-                        <button type="submit " class="btn btn-primary"> ارســـــــال </button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- end  contact us  -->
+<!-- end FAQ page  -->
+
+
+
+
 
 
 
