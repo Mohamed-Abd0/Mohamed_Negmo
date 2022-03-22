@@ -52,10 +52,35 @@ h3{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    z-index: 1000;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.second{
+    position: fixed;
+    width: 100%;
+    top:60px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     z-index: 1000;
 }
+@media(max-width:993px){
+    .second{
+        display: none;
+    }
+}
+.navbar .container{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.second .container{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
 nav .navbar-brand{
     width: 70px;
 }
@@ -65,8 +90,18 @@ nav .navbar-brand{
 }
 
 nav .navbar-collapse{
-    flex-grow: 0;
+    flex-grow: 1;
     font-weight: bold;
+    justify-content: space-between;
+}
+nav .socials{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+nav .socials a{
+    color: #000;
+    margin-left: 20px;
 }
 nav .nav-item{
     margin: 0 20px;
@@ -148,7 +183,9 @@ header .user .image img{
     background-size: cover;
     border-radius: 50%;
 }
-
+header .user h3{
+    margin: 0;
+}
 header .user .name,.post{
     color:#fff;
 }
@@ -852,14 +889,26 @@ i{
 /********** Sstart footer **********/
 
 footer{
-    padding: 60px 0;
+    padding: 30px 0;
     background-color: #242f3d;
     color: white;
     font-weight: bold;
 }
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:768px){
+    footer .container{
+        flex-direction: column;
+    }
+}
+footer .container > div{
+    margin-left: 20px;
+}
 footer .logo{
     width: 100px;
-    margin-bottom: 15px;
     display: inline-block;
 }
 footer .logo img{
@@ -882,25 +931,6 @@ footer .socials a{
 }
 
 
-footer h3{
-    color: var(--green);
-    margin-bottom: 15px;
-    margin-top: 0;
-    text-align: right;
-}
-footer ul{
-    list-style: none;
-}
-footer ul li{
-    margin-bottom: 5px;
-}
-footer ul li a{
-    color: white;
-    text-decoration: none;
-}
-footer ul li a:hover{
-    color: var(--blue);
-}
 /********** end footer **********/
 
 
@@ -928,7 +958,7 @@ footer ul li a:hover{
     padding: 30px;
     border: 1px solid #ced4da;
     border-radius: 10px;
-    margin: 100px 0;
+    margin: 150px 0;
 }
 
 .sign-up h2{
@@ -1019,7 +1049,7 @@ footer ul li a:hover{
 
 /********** start contact us page  **********/
 .contact-us h3{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .contact-us .bord{
@@ -1047,7 +1077,7 @@ footer ul li a:hover{
 /********** start about   **********/
 
 .about h3{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .about img{
     max-width: 100%;
@@ -1080,3 +1110,15 @@ footer ul li a:hover{
     padding: 100px 0;
 }
 /********** end FAQ page  **********/
+
+
+
+/********** start courses page  **********/
+
+.my_courses{
+    padding: 228px 0;
+}
+
+
+
+/********** end courses page  **********/
