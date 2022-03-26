@@ -106,6 +106,13 @@ nav .socials a{
 nav .nav-item{
     margin: 0 20px;
 }
+nav .profile{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--green);
+    border-radius: 50%;
+    display: none;
+}
 .navbar-light .navbar-nav .nav-link {
     color: black; 
     position: relative;
@@ -1106,6 +1113,7 @@ footer .socials a{
 /********** start FAQ page  **********/
 
 .faq{
+    margin-bottom: 197px;
     background: #f4f6f9;
     padding: 100px 0;
 }
@@ -1116,6 +1124,7 @@ footer .socials a{
 /********** start courses page  **********/
 
 .my_courses{
+    margin-bottom: 180px;
     padding: 228px 0;
 }
 
